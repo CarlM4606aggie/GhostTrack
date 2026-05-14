@@ -2,3 +2,4 @@ requests
 phonenumbers
 colorama
 pretty_errors  # nicer tracebacks during development
+rich  # better terminal output for personal use
