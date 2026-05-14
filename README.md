@@ -32,6 +32,8 @@ python3 GhostTR.py
 
 > **Note (personal):** On Termux, if `pip install -r requirements.txt` fails, try running `pip install phonenumbers requests` manually — that covers the two main dependencies.
 
+> **Note (personal):** On some newer Debian/Ubuntu systems, you may need to use `pip3 install --break-system-packages -r requirements.txt` or set up a virtualenv first (`python3 -m venv venv && source venv/bin/activate`) before installing dependencies.
+
 Display on the menu ```IP Tracker```
 
 <img src="https://github.com/HunxByts/GhostTrack/blob/main/asset/ip.png " />
