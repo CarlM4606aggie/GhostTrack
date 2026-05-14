@@ -34,6 +34,8 @@ python3 GhostTR.py
 
 > **Note (personal):** On some newer Debian/Ubuntu systems, you may need to use `pip3 install --break-system-packages -r requirements.txt` or set up a virtualenv first (`python3 -m venv venv && source venv/bin/activate`) before installing dependencies.
 
+> **Note (personal):** To avoid re-entering the virtualenv every session, add `alias ghosttrack='cd ~/tools/GhostTrack && source venv/bin/activate && python3 GhostTR.py'` to your `~/.bashrc` or `~/.zshrc`.
+
 Display on the menu ```IP Tracker```
 
 <img src="https://github.com/HunxByts/GhostTrack/blob/main/asset/ip.png " />
