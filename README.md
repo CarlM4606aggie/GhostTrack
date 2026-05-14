@@ -10,6 +10,7 @@ New update :
 ```
 sudo apt-get install git
 sudo apt-get install python3
+pip3 install -r requirements.txt
 ```
 
 ### Instalation on Termux
@@ -25,6 +26,8 @@ cd GhostTrack
 pip3 install -r requirements.txt
 python3 GhostTR.py
 ```
+
+> **Note (personal):** If you run into issues with `phonenumbers` or `requests` not found, make sure you're running `pip3` in the same environment as your `python3`. Using a virtualenv helps avoid version conflicts.
 
 Display on the menu ```IP Tracker```
 
