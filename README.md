@@ -36,6 +36,8 @@ python3 GhostTR.py
 
 > **Note (personal):** To avoid re-entering the virtualenv every session, add `alias ghosttrack='cd ~/tools/GhostTrack && source venv/bin/activate && python3 GhostTR.py'` to your `~/.bashrc` or `~/.zshrc`.
 
+> **Note (personal):** If the phone tracker returns no results or throws an exception for a valid number, double-check that you're including the country code with a `+` prefix (e.g. `+14155552671`). Numbers without a country code will silently fail in some cases.
+
 Display on the menu ```IP Tracker```
 
 <img src="https://github.com/HunxByts/GhostTrack/blob/main/asset/ip.png " />
