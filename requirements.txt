@@ -3,3 +3,4 @@ phonenumbers
 colorama
 pretty_errors  # nicer tracebacks during development
 rich  # better terminal output for personal use
+ipython  # for interactive debugging sessions
